@@ -6,7 +6,7 @@ a start index and an end index
 
 
 def index_range(page, page_size) -> tuple:
-    """Calculate the start  and  last index 
+    """Calculate the start  and  last index
     for the given page and page_size
     """
     return (((page - 1) * page_size), page * page_size)
