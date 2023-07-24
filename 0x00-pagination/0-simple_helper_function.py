@@ -5,7 +5,7 @@ a start index and an end index
 """
 
 
-def index_range(page, page_size):
+def index_range(page, page_size) -> tuple:
     # Calculate the start index for the given page and page_size
     start_index = (page - 1) * page_size
 
