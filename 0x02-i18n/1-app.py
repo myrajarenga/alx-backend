@@ -33,7 +33,7 @@ babel = Babel(app)
 @app.route('/')
 def index():
     """"function  to render index file"""
-    return render_template('index.html')
+    return render_template('1-index.html')
 
 
 if __name__ == '__main__':
