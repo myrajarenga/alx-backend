@@ -26,8 +26,8 @@ class Config(object):
 Instantiate the Babel object and use Config as the app's config
 """
 app = Flask(__name__)
-babel = Babel(app)
 app.config.from_object(Config)
+babel = Babel(app)
 
 
 @app.route('/')
